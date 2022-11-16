@@ -1,0 +1,27 @@
+{
+  "name": "photography",
+  "version": "1.0.0",
+  "description": "This is a pgotography website demo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./src/sass/main.scss ./src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonriselan/Photography_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonriselan/Photography_website/issues"
+  },
+  "homepage": "https://github.com/moonriselan/Photography_website#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+
+  }
+}
