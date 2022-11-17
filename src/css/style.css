@@ -382,4 +382,13 @@ html, body {
   position: relative;
 }
 
+.search__wrapper {
+  display: flex;
+  align-content: space-between;
+}
+
+span {
+  width: 185px;
+}
+
 /*# sourceMappingURL=style.css.map */

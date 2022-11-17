@@ -79,3 +79,11 @@
   padding-bottom: toRem(40px);
   position: relative;
 }
+.search__wrapper {
+  display: flex;
+ align-content: space-between;
+
+}
+span {
+  width: 185px;
+}
