@@ -311,7 +311,7 @@ html, body {
   font-size: 16px;
 }
 
-.main-menu__item {
+.auth-menu__item, .main-menu__item {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 0.8825rem;
@@ -332,18 +332,16 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-left: 6.25rem;
-  padding-right: 6.25rem;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 90rem;
+  max-width: 100%;
   width: 100%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.3125rem;
 }
 
 .main-menu__item--active, .main-menu__item:hover {
@@ -360,6 +358,28 @@ html, body {
   height: 0.088125rem;
   display: block;
   background-color: #DFB388;
+}
+
+.auth-menu {
+  border-radius: 0.75rem;
+  padding: 1.25rem 2rem;
+}
+.lead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.pictures {
+  display: block;
+  position: relative;
+}
+
+.lines {
+  display: inline-block;
+  padding-bottom: 2.5rem;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
