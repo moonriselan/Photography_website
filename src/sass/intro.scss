@@ -29,8 +29,9 @@
   justify-content: space-around;
   max-width: toRem(1440px);
   width: 100%;
-  padding-top: toRem(5px);
   padding-bottom: toRem(5px);
+  padding-left: toRem(6px);
+  padding-right: toRem(6px);
 }
 
 .main-menu {
@@ -65,33 +66,49 @@
     padding: toRem(20px) toRem(32px)
   }
 .lead {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: 0;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 31%;
+
 }
   .pictures {
     display: block;
-    position: relative;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+
   }
 
 .lines {
   display: inline-block;
-  padding-bottom: toRem(40px);
-  position: relative;
+  position: absolute;
+  top: 94%;
+  left: 42%;
 }
 .search__wrapper {
-  display: flex;
- align-content: space-between;
+  position: absolute;
+  left: 42%;
+  bottom: 60%;
+
 
 }
 span {
-  width: 185px;
+  width: 180px;
+}
+
+.number {
+  display: block;
+  position: absolute;
+  margin: 0;
+  bottom: 6%;
+  left: 50%;
+
 }
 
 .icons {
   display: flex;
+  flex-direction: column;
   align-self: flex-start;
-  padding-left: toRem(135px);
+  padding-left: 100px;
 }
