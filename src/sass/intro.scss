@@ -8,27 +8,28 @@
   line-height: toRem(16.55px);
   color: #CDCDCD;
   text-decoration: none;
-  padding: toRem(10px);
+  padding: toRem(6px);
   margin: toRem(6px);
   display: inline-block;
   text-transform: uppercase;
 }
 .intro {
-  background: #202824;
+  background-image: url("#{$imgs-path}/background.png");
   background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  max-height: 100%;
 }
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  max-width: 100%;
+  justify-content: space-around;
+  max-width: toRem(1440px);
   width: 100%;
-  padding-top: toRem(10px);
+  padding-top: toRem(5px);
   padding-bottom: toRem(5px);
 }
 
@@ -68,6 +69,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin: 0;
 }
   .pictures {
     display: block;
@@ -86,4 +88,10 @@
 }
 span {
   width: 185px;
+}
+
+.icons {
+  display: flex;
+  align-self: flex-start;
+  padding-left: toRem(135px);
 }
