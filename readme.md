@@ -1,3 +1,3 @@
 This is a photography website demo.
-[My Image](images/done.png)
+[Click here to see the result](./src/images/done.png)
 
